@@ -778,9 +778,12 @@ body.nav-opened .nav {
 /* Appears in the top left corner of your home page */
 .blog-logo {
     display: block;
-    float: left;
     background: none !important; /* Makes sure there is never a background */
     border: none !important; /* Makes sure there is never a border */
+    margin-right: auto;
+    margin-left: auto;
+    width: 15em;
+    height: auto;
 }
 
 .blog-logo img {
