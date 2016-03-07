@@ -780,10 +780,6 @@ body.nav-opened .nav {
     display: block;
     background: none !important; /* Makes sure there is never a background */
     border: none !important; /* Makes sure there is never a border */
-    margin-right: auto;
-    margin-left: auto;
-    width: 15em;
-    height: auto;
 }
 
 .blog-logo img {
@@ -791,9 +787,11 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 120px;
+    height: 80px;
     padding: 1px 0 5px 0;
     width: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .menu-button {
