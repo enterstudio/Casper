@@ -2,20 +2,18 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{! The big featured header }}
-<header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+<header class="main-header grid-gradient-bg {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
         <!--{{#if @blog.navigation}}
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {{/if}}-->
     </nav>
-    <div class="vertical grid-gradient-bg">
-        <div class="grid-bg">
-            <div class="main-header-content inner">
-                <h1 class="page-title">
-                    {{#if @blog.logo}}<a href="{{@blog.url}}"><img style="height: 3em" src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-                </h1>
-                <h2 class="page-description">{{@blog.description}}</h2>
-            </div>
+    <div class="vertical grid-bg">
+        <div class="main-header-content inner">
+            <h1 class="page-title">
+                {{#if @blog.logo}}<a href="{{@blog.url}}"><img style="height: 3em" src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+            </h1>
+            <h2 class="page-description">{{@blog.description}}</h2>
         </div>
     </div>
 </header>
