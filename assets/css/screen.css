@@ -521,10 +521,32 @@ body.nav-opened .site-wrapper {
     background: #006ef0 no-repeat center center;
     background-size: cover;
     overflow: hidden;
+    
 }
 
 .main-header .inner {
     width: 80%;
+}
+
+.grid-gradient-bg {
+    background-image: -webkit-radial-gradient(ellipse farthest-corner at bottom center,#006ef0,#004fac);
+    background-image: -moz-radial-gradient(ellipse farthest-corner at bottom center,#006ef0,#004fac);
+    background-image: -o-radial-gradient(ellipse farthest-corner at bottom center,#006ef0,#004fac);
+    background-image: -ms-radial-gradient(ellipse farthest-corner at bottom center,#006ef0,#004fac);
+    background-image: radial-gradient(ellipse farthest-corner at bottom center,#006ef0,#004fac);
+}
+
+.grid-bg {
+    background-color: transparent;
+    /* background-image: -webkit-repeating-linear-gradient(270deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px),-webkit-repeating-linear-gradient(0deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px); */
+    background-image: -moz-repeating-linear-gradient(270deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px),-moz-repeating-linear-gradient(0deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px);
+    background-image: -o-repeating-linear-gradient(270deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px),-o-repeating-linear-gradient(0deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px);
+    background-image: -ms-repeating-linear-gradient(270deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px),-ms-repeating-linear-gradient(0deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px);
+    background-image: repeating-linear-gradient(180deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px),repeating-linear-gradient(90deg,rgba(255,255,255,.1) 2px,transparent 4px,transparent 150px);
+    height: 100%;
+    -webkit-background-size: 150px 150px;
+    -moz-background-size: 150px 150px;
+    background-size: 150px 150px;
 }
 
 .main-nav {
