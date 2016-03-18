@@ -253,12 +253,12 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #5ba4e5;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #111;
+    color: #5ba4e5;
 }
 
 p, ul, ol, dl {
