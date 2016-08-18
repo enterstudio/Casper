@@ -11,15 +11,15 @@
     <div class="vertical grid-bg">
         <div class="main-header-content inner">
             <h1 class="page-title">
-                {{#if @blog.logo}}<a href="https://gorgias.io"><img style="height: 1em" src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+                {{#if @blog.logo}}<a href="https://gorgias.io"><img style="height: 2em" src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
             </h1>
             <h2 class="page-description">Get weekly tips about customer support</h2>
             <!-- Mailchimp signup form -->
-            <form action="//gorgias.us12.list-manage.com/subscribe/post?u=bb9a513881d5fd7f34c4f73b4&amp;id=822af8eb1d;LOCATION=head" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sub-form" target="_blank" novalidate="" _lpchecked="1">
-                <div class="input-group col-sm-offset-3 col-sm-6">
-                    <input type="email" name="EMAIL" class="form-control input-email" placeholder="Your email" required="required">
+            <form action="//gorgias.us12.list-manage.com/subscribe/post?u=bb9a513881d5fd7f34c4f73b4&amp;id=822af8eb1d&amp;LOCATION=head" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sub-form" target="_blank" novalidate="" _lpchecked="1">
+                <div class="helpdesk-email-from input-group col-sm-offset-3 col-sm-6">
+                    <input type="email" name="EMAIL" class="form-control" placeholder="Your email" required="required">
                     <span class="input-group-btn">
-                        <button class="btn btn-primary subscribe-button" type="Subscribe" onclick="ga('send', 'event', 'button', 'click', 'subscribe-header');">Request early access</button>
+                        <button class="btn btn-primary" type="Subscribe" onclick="ga('send', 'event', 'button', 'click', 'subscribe-header');">Request early access</button>
                     </span>
                 </div>
             </form>
