@@ -6,6 +6,7 @@
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
 
+<!--
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
         {{#if @blog.logo}}<a class="blog-logo" href="https://gorgias.io"><img src="https://raw.githubusercontent.com/gorgias/gorgias-chrome/master/artwork/logo-black.png" alt="{{@blog.title}}" /></a>{{/if}}
@@ -13,6 +14,44 @@
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {{/if}}
     </nav>
+</header>
+-->
+<header class="main-header grid-gradient-bg>
+    <nav class="main-nav overlay clearfix">
+        <!--{{#if @blog.navigation}}
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        {{/if}}-->
+    </nav>
+    <div class="vertical grid-bg">
+        <div class="main-header-content inner">
+            <h1 class="page-title">
+                {{#if @blog.logo}}<a href="https://gorgias.io"><img style="height: 1.5em" src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+            </h1>
+            <h2 class="page-description">
+                Get <b>weekly tips</b> about <b>customer support</b>
+            </h2>
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+            	#mc_embed_signup{background:none; clear:left; width:100%;}
+            	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+            	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="">
+            <form action="//gorgias.us12.list-manage.com/subscribe/post?u=bb9a513881d5fd7f34c4f73b4&amp;id=822af8eb1d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="subscribe-section">
+                	<input type="email" value="" name="EMAIL" class="email input-email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_bb9a513881d5fd7f34c4f73b4_822af8eb1d" tabindex="-1" value=""></div>
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-subscribe btn">
+                </div>
+            </form>
+            </div>
+            
+            <!--End mc_embed_signup-->
+        </div>
+    </div>
 </header>
 
 <main class="content" role="main">
