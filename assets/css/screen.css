@@ -518,6 +518,7 @@ div#subscribe-section {
     border-radius: 3px 0px 0px 3px;
     vertical-align: middle;
     width: 300px;
+    font-weight: normal;
 }
 
 .button-subscribe {
@@ -534,6 +535,7 @@ div#subscribe-section {
     font-weight: 100;
     border-radius: 0px 3px 3px 0px;
     vertical-align: middle;
+    font-weight: normal;
 }
 
 /* ==========================================================================
@@ -545,7 +547,7 @@ div#subscribe-section {
     position: relative;
     display: table;
     width: 100%;
-    height: 400px;
+    height: 350px;
     margin-bottom: 5rem;
     text-align: center;
     background: radial-gradient(ellipse farthest-corner at bottom center,#006ef0,#004fac);
