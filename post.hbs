@@ -7,8 +7,8 @@
 {{#post}}
 
 <!--
-<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
+<header class="main-header post-head {{#if feature_image}}" style="background-image: url({{img_url feature_image}}){{else}}no-cover{{/if}}">
+    <nav class="main-nav {{#if feature_image}}overlay{{/if}} clearfix">
         {{#if @blog.logo}}<a class="blog-logo" href="https://gorgias.io"><img src="https://raw.githubusercontent.com/gorgias/gorgias-chrome/master/artwork/logo-black.png" alt="{{@blog.title}}" /></a>{{/if}}
         {{#if @blog.navigation}}
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
@@ -73,9 +73,9 @@
         {{! Everything inside the #author tags pulls data from the author }}
         {{#author}}
 
-            {{#if image}}
+            {{#if profile_image}}
             <figure class="author-image">
-                <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+                <a class="img" href="{{url}}" style="background-image: url({{img_url profile_image}})"><span class="hidden">{{name}}'s Picture</span></a>
             </figure>
             {{/if}}
 
@@ -132,7 +132,7 @@
 
 <aside class="read-next">
     {{#next_post}}
-    <a class="read-next-story {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+    <a class="read-next-story {{#if feature_image}}" style="background-image: url({{img_url feature_image}}){{else}}no-cover{{/if}}" href="{{url}}">
         <section class="post">
             <h2>{{title}}</h2>
             <p>{{excerpt words="19"}}&hellip;</p>
@@ -140,7 +140,7 @@
     </a>
     {{/next_post}}
     {{#prev_post}}
-    <a class="read-next-story prev {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+    <a class="read-next-story prev {{#if feature_image}}" style="background-image: url({{img_url feature_image}}){{else}}no-cover{{/if}}" href="{{url}}">
         <section class="post">
             <h2>{{title}}</h2>
             <p>{{excerpt words="19"}}&hellip;</p>

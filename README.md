@@ -1,8 +1,15 @@
-# Casper
+# Gorgias Ghost Theme
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+Forked from the default theme (Casper) for [Ghost](http://github.com/tryghost/ghost/).
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+## Development
+
+Follow the local development guide for Ghost:
+https://docs.ghost.org/v1/docs/install-local
+
+```
+nodemon current/index.js --watch content/themes/casper --ext hbs,js,css
+```
 
 ## Copyright & License
 
