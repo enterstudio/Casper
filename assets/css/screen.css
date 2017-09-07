@@ -517,12 +517,12 @@ div#subscribe-section {
     font-weight: 100;
     border-radius: 3px 0px 0px 3px;
     vertical-align: middle;
-    width: 300px;
+    width: 290px;
     font-weight: normal;
 }
 
 .button-subscribe {
-   margin-left: -5px;
+    margin-left: -5px;
     color: #fff;
     background-color: #45be4e;
     border-color: #4ec157;
@@ -536,6 +536,11 @@ div#subscribe-section {
     border-radius: 0px 3px 3px 0px;
     vertical-align: middle;
     font-weight: normal;
+}
+
+.input-email,
+.button-subscribe {
+    max-width: 44%;
 }
 
 /* ==========================================================================
