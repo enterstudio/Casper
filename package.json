@@ -1,4 +1,10 @@
 {
-  "name": "Casper",
-  "version": "1.2.8"
+  "name": "casper",
+  "version": "1.2.8",
+  "author": {
+    "email": "support@gorgias.io"
+  },
+  "config": {
+    "posts_per_page": 10
+  }
 }
