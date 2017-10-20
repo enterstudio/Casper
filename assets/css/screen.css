@@ -26,7 +26,7 @@
    ========================================================================== */
 
 html { 
-    font-family: 'Source Sans Pro',Arial,'Helvetica Neue',Helvetica, sans-serif;
+    font-family: 'Open Sans',Arial,'Helvetica Neue',Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -524,8 +524,9 @@ div#subscribe-section {
 .button-subscribe {
     margin-left: -5px;
     color: #fff;
-    background-color: #45be4e;
-    border-color: #4ec157;
+    background-color: #06d79c;
+    text-transform: uppercase;
+    border-color: #06d79c;
     height: 42px;
     width: 120px;
     padding: 10px;
